@@ -1,0 +1,18 @@
+Write about NPM vs YARN
+:
+npm: less security
+   : less Consistency
+   : less performance
+   : npm has no offline mode
+   : has more community to solve problems
+syntax: npm install package_name
+
+yarn: Enhanced security
+    : Better stability
+    : Faster
+    : yarn has offline mode
+    : yarn has speed and predictability
+    : More efficient
+    : More secure than NPM packages
+    : Has access to 300,000+ packages in NPM registry
+syntax: yarn add package_name

@@ -1,0 +1,82 @@
+//1. creating function component 
+// import React from 'react'
+// import Hello from './Hello'
+
+// function App() {
+//   // let name="Hello mahesh";
+//   // let num=10;
+//   // let num1=20;
+//   // let age=23;
+//   //   <>
+//   //     <h1>{name}</h1>
+//   //     <div>"the addition is"+{num+num1}</div>
+//   //     <p>"age is"+{age}</p>
+//   //   </>
+    
+//   // )
+
+//   return(
+//     <Hello />
+//   )
+// }
+// //React.render(<Hello name="John Doe"/>, document.getElementById("main"));
+// export default App
+
+
+
+
+//2. creating class component 
+// import React,{Component} from 'react';
+
+// class App extends Component{
+//   constructor(props)   //whenever we create class component always must write constructor(props) with argument props which holds property inside super(props)
+//   {
+//     super(props);
+
+        
+//     this.state={count:0};    //initialize state of the component with count=0
+
+//     this.handleClick=this.handleClick.bind(this);      //now if you want to bind any method use this.fun_name
+//   }
+
+//   //create a function to run after click on a perticular btn
+//   handleClick(){
+//     //change the state using callback i.e. we passing this.setState() func as arguemnt i.e. function
+//     this.setState((st)=>{
+//       //return count with incremnt logic
+//       return st.count+=1;
+//     })
+//   }
+
+// //now render all things in that fucntion or insert
+// render(){
+//   return(
+//     <div>
+//       <h3>Number:{this.state.count}</h3>
+//       <button onClick={this.handleClick}>incremntCount</button>
+//     </div>
+//   )
+// }
+
+// }
+
+// //export these file as default
+// export default App
+
+
+
+import React from "react";
+import List from "./List";
+function App(){
+  return (
+  
+      <List/>
+    
+    
+  )
+}
+
+export default App;
+
+
+

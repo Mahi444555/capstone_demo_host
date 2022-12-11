@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "mahesh",
+        "age": 23,
+        "city": "aurangabad",
+        "job": "Full_stack_web_developer",
+        "icon": ""
+    },
+    {
+        "id": 2,
+        "name": "raju",
+        "age": 20,
+        "city": "sambhajinager",
+        "job": "Java-developer",
+        "icon": "/fetchjson/src/img/2.JPG"},
+    {
+        "id": 3,
+        "name": "ramesh",
+        "city": "pune",
+        "job": "Cpp-developer",
+        "icon": "src/img/one.JPG"
+    },
+    {
+        "id": 4,
+        "name": "suresh",
+        "city": "mumbai",
+        "job": "AI-developer",
+        "icon":" E:/React_APP/11_practice_jsonDatafetch/fetchjson/src/img"
+    },
+    {
+        "id": 5,
+        "name": "ganesh",
+        "city": "banglore",
+        "job": "CEO",
+        "icon": "src/img/5.JPG"
+    }
+]

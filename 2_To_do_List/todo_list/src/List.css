@@ -1,0 +1,14 @@
+.Item{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: auto;
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(77,14,77);
+}
+
+ul{
+    margin: 0;
+}

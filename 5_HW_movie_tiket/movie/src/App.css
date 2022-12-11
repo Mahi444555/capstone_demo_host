@@ -1,0 +1,427 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* for First.css component sytling  */
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(184, 217, 230, 0.204);
+  /* background:; */
+}
+
+.container {
+  flex-wrap: wrap;
+  height: 250px;
+  width: 700px;
+  border: 1px solid rgb(210, 192, 192);
+  position: relative;
+  position: relative;
+  left: 120px;
+  top: 70px;
+  border-radius: 5px;
+
+}
+
+.pad_margin {
+  padding: 10px;
+  margin: 10px;
+  flex-wrap: wrap;
+
+}
+
+.delivery {
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgba(1, 16, 22, 0.763);
+
+}
+
+.head3 {
+  color: rgba(1, 16, 22, 0.763);
+}
+
+.check {
+  position: relative;
+  top: 5px;
+  color: green;
+  font-size: 30px;
+
+}
+
+.paraFirst {
+  color: rgba(0, 0, 0, 0.523);
+  font-size: 17px;
+}
+
+
+/* Second.jsx styling container2 */
+.container2 {
+
+  flex-wrap: wrap;
+  height: 580px;
+  width: 700px;
+  border: 1px solid rgb(210, 192, 192);
+  position: relative;
+  position: relative;
+  left: 120px;
+  top: 100px;
+  border-radius: 5px;
+  border-bottom: none;
+}
+
+.imgLogo {
+  position: relative;
+  top: -50px;
+  left: 550px;
+  background-color: #abaeb4;
+  height: 35px;
+  width: 100px;
+}
+
+.Visa_Inner {
+  height: 220px;
+  width: 650px;
+  border: 1px solid rgba(135, 207, 235, 0.282);
+  background-color: rgba(171, 220, 236, 0.189);
+}
+
+.padd_margin {
+  padding: 10px;
+  margin: 10px;
+}
+.lastPara{
+  position: relative;
+  top:-150px;
+}
+.headd3{
+position: relative;
+bottom: -15px;
+top:-15px;
+}
+.paraLast{
+  position: relative;
+  top:-28px;
+}
+
+.radio1 {
+  height: 30px;
+  width: 25px;
+}
+
+.visaImg {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.visatxt {
+  position: relative;
+  top: -60px;
+  left: 110px;
+  font-size: 20px;
+  color: rgba(1, 16, 22, 0.763);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* styling form inside of Second.jsx  */
+.form1 {
+  position: relative;
+  top: -75px;
+  left: 110px;
+
+}
+
+.inputSecond {
+  width: 85px;
+  height: 25px;
+  font-size: 15px;
+  color: rgba(91, 84, 84, 0.76);
+  border: none;
+  background-color: rgba(171, 220, 236, 0.033);
+  outline: none;
+}
+
+.btn {
+  position: relative;
+  top: -80px;
+  left: 16.5%;
+
+}
+
+.butt {
+  outline: none;
+  border: none;
+  width: 50px;
+  height: 20px;
+  font-size: 15px;
+  color: blue;
+  background-color: rgba(171, 220, 236, 0.033);
+  cursor: pointer;
+}
+
+.logo1 {
+  background-color: #abaeb4;
+  height: 35px;
+  width: 100px;
+}
+
+.Security {
+  position: relative;
+  top: -80px;
+  left: 45px;
+  font-size: 15px;
+  color: rgba(9, 15, 17, 0.79);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* these above box is above security code inside payment */
+.box {
+  border-radius: 5px;
+  position: relative;
+  top: -90px;
+  left: 45px;
+  height: 50px;
+  width: 150px;
+  border: 2px solid rgba(1, 13, 18, 0.215);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+
+}
+
+.input11 {
+  position: relative;
+  top: px;
+  width: 70px;
+  height: 25px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.check1 {
+  padding-left: 15px;
+  color: green;
+  font-size: 30px;
+}
+.AtmImg {
+  height: 60px;
+  position: relative;
+  top: -145px;
+  left: 210px;
+}
+.para3{
+  position: relative;
+  top: -55px;
+  left: 65px;
+  color: #5c5e64;
+}
+.SymbolAdd{
+  position: relative;
+  top: -120px;
+ left: 5%;
+}
+ a{
+  text-decoration: none;
+  font-size: 60px;
+  color:blue;
+  font-weight: 300;
+}
+
+.AtmImg2{
+  position: relative;
+  top: -100px;
+  left: 50px;
+}
+.paraAdd{
+  color: blue;
+  position: relative;
+  top: -185px;
+  left: 180px;
+  font-size: 20px
+}
+
+.borderbotom{
+  border-bottom: 1px solid rgba(27, 25, 25, 0.322);
+  position: relative;
+  top: -180px;
+}
+.color{
+  color: blue;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+
+/* for Third.jsx component */
+.container3{
+  height: 850px;
+  width: 440px;
+  border: 1px solid black;
+  position: relative;
+  left: 850px;
+  top:-760px;
+  border: 1px solid rgb(210, 192, 192);
+  border-bottom: none;
+  /* border: 1px solid rgba(1, 13, 18, 0.215); */
+}
+.paddingMar{
+  padding: 10px;
+  margin:10px;
+  
+}
+.one{
+  display: flex;
+  
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgba(1, 16, 22, 0.763);
+
+}
+.hed3{
+  float: left;
+  float:right;
+  padding-left: 50%;
+  
+}
+
+.left{
+  position: relative;
+  left: 80%;
+  top: -40px;
+  
+}
+.MarTop{
+  position: relative;
+  top: -40px;
+  color: rgba(1, 16, 22, 0.763);
+
+}
+.paraa1{
+  position: relative;
+  top: -50px;
+}
+.fees{
+  color: rgba(1, 16, 22, 0.763);
+  position: relative;
+  top: -50px;
+}
+.servi{
+  position: relative;
+  top: -60px;
+}
+.dol{
+  position: relative;
+  top:-100px;
+  left: 330px;
+}
+.ord{
+position: relative;
+top: -100px;
+}
+.dol2{
+  position: relative;
+  top:-135px;
+  left: 330px;
+}
+.one11{
+  position: relative;
+  top: -120px;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(1, 16, 22, 0.763);
+
+}
+.mob{
+position: relative;
+top: -130px;
+}
+.mob1{
+  position: relative;
+  top: -170px;
+  left: 335px;
+}
+.can11{
+position: relative;
+top:-150px;
+
+}
+.can{
+  color:blue;
+  font-weight: 500;
+}
+.all{
+margin-top: -10px;
+color: rgba(1, 16, 22, 0.763);
+font-size: 15px;
+
+}
+.checkbox{
+  position: relative;
+  top: -6px;
+  
+}
+.head4{
+position: relative;
+top: -50px;
+left: 25px;
+font-size: 16px;
+color: rgba(1, 16, 22, 0.763);
+}
+.btnLast{
+width: 380px;
+height: 40px;
+position: relative;
+top: -25px;
+cursor: pointer;
+color: white;
+font-size: 20px;
+border:none;
+border-radius: 4px;
+background-color: rgba(10, 132, 10, 0.947);
+}
+.Last{
+  position: relative;
+  top: -25px;
+  font-size: 10px;
+}
