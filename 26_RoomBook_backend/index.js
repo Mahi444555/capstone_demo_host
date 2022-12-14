@@ -6,9 +6,7 @@ dotenv.config();
 
 const app = express();  //here we calling express method and assigng to app variable
 const MONGO_URL=process.env.MONGO_URL;  //here we connecting that mongo url ie. online cloud 
-const PORT = process.env.PORT || 5000;
-
-app.use(express.json());
+const PORT = process.env.PORT || 5000; 
 app.use(cors());
 
 //Create a mongo connection 
@@ -20,7 +18,7 @@ const createConnection = async()=>{
 }
  
 
-const client=await createConnection();
+const client=await createConnection();      //calling to function 
 
 app.get("/",(req,res)=>{
     res.send("<h1>App is working fine</h1>");
@@ -32,9 +30,9 @@ app.post("/create_room",async(req,res)=>{
     const data =req.body;
 
     const result=await client
-    .db("booking")
-    .collection("create_room")
-    .insertOne(data)
+    .db("booking")                  //here creating .bd(databse of name booking)
+    .collection("create_room")      //here creating .collection (of name create_room)
+    .insertOne(data)        //here we inserting all data given from postman bbody req and insert into database 
 
     result.acknowledged
     ?res.status(200).send({msg:"rooms created sucessfully"})
@@ -77,9 +75,7 @@ app.post("/book_room",async(req,res)=>{
 
     result.acknowledged
     ?res.status(200).send({msg:"room booked sucessfully"})
-    :res
-    .status(400)
-    .send({msg:"something went wrong!please try again after sometime"})
+    :res.status(400).send({msg:"something went wrong!please try again after sometime"})
 })
 
 

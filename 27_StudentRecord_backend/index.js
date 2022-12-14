@@ -29,7 +29,7 @@ const client=await createConnection();
 
 
 //Write an api Logic to Add a mentor
-app.post("/create-mentor",async(req,res)=>{
+app.post("/creatementor",async(req,res)=>{
     const data=req.body;
     const result=await client
     .db("mentor-student")
